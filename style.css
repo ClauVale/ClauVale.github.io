@@ -1,0 +1,8 @@
+<div class="lineal"></div>
+<style>
+  .lineal {
+    width: 250px;
+    height:200px;
+    background: linear-gradient(skyblue 30%, white);  
+  }
+</style>

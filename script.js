@@ -6,8 +6,8 @@ atributos y fuciones (metodos)
 es en forma mas sencilla una variable en JS que va a traer una abstraccion de mi documento HTML.
 */
 
-const nombre = "karina";
-let edad = 17;
+const nombre = "claudia";
+let edad = 20;
 
 // tipo de cajon 
 // ()
@@ -33,11 +33,10 @@ let   objetodelabibliotecatypewriter = new Typewriter(titulo, {
     });
     objetodelabibliotecatypewriter
 
-        .typeString('Claudia Valeria Velasquez Diaz ')
+        .typeString('BIENVENIDA A MI PORTAFOLIO')
         .pauseFor(500)
         .deleteAll()
-        .typeString('DESARROLLO WEB <3')
-        .pauseFor(500)
-        .deleteChars(20)
-        .pauseFor(2500)
+        .typeString('WELCOME TO MY PORTFOLIO')
+        .pauseFor(850)
+        .deleteChars(200)
         .start();
